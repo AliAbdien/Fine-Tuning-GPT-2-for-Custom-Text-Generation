@@ -88,10 +88,6 @@ print(output)
 - Model checkpoints are stored in the `checkpoint-15500/` directory.
 - Training logs are available in the `runs/` folder for TensorBoard visualization.
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
 ---
 
 📧 **Contact:** ali.abdien.omar@gmail.com  
