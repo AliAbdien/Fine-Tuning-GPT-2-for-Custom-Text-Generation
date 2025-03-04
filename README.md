@@ -6,8 +6,6 @@ This repository contains the code and configurations for fine-tuning **GPT-2** o
 
 ```
 📦 Fine-Tuning-GPT2
-│── 📁 checkpoint-15500     # Latest model checkpoint
-│── 📁 runs                 # Training logs and tensorboard outputs
 │── 📜 config.json          # Model configuration file
 │── 📜 generation_config.json  # Configuration for text generation
 │── 📜 merges.txt           # Tokenizer merge file
@@ -82,11 +80,6 @@ generator = pipeline("text-generation", model="./checkpoint-15500")
 output = generator("Once upon a time", max_length=50)
 print(output)
 ```
-
-## 📈 Training Logs & Checkpoints
-
-- Model checkpoints are stored in the `checkpoint-15500/` directory.
-- Training logs are available in the `runs/` folder for TensorBoard visualization.
 
 ---
 
